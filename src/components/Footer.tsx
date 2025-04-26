@@ -35,7 +35,7 @@ const Footer: React.FC = () => (
           className="flex items-center hover:opacity-80"
         >
           <img
-            src="/public/assets/logo-ds.png"
+            src="/assets/logo-ds.png"
             alt="DuckSolutions"
             className="h-4 w-4 rounded-full"
           />

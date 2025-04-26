@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
 const images = [
-  '/public/assets/frente1.jpeg',
-  '/public/assets/interior-cons.jpeg',
-  '/public/assets/interior.jpeg',
+  '/assets/frente1.jpeg',
+  '/assets/interior-cons.jpeg',
+  '/assets/interior.jpeg',
 ]
 
 const Facilities: React.FC = () => {

@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contacto"
-      className="relative py-24 bg-brand-dark bg-[url('/public/assets/llave-logo.jpeg')] bg-cover bg-center md:bg-none"
+      className="relative py-24 bg-brand-dark bg-[url('/assets/llave-logo.jpeg')] bg-cover bg-center md:bg-none"
     >
       {/* Overlay para legibilidad en móvil */}
       <div className="absolute inset-0 bg-brand-dark/80 md:hidden" />
@@ -29,7 +29,7 @@ const Contact: React.FC = () => {
           {/* Imagen lateral en desktop */}
           <div className="hidden md:block md:w-1/2">
             <img
-              src="/public/assets/llave-logo.jpeg"
+              src="/assets/llave-logo.jpeg"
               alt="Llave y logo Villa María Automotores"
               className="w-full h-auto rounded-2xl shadow-lg object-cover"
             />

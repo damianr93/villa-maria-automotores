@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const images = [
-  "/public/assets/usados/1.jpeg",
-  "/public/assets/usados/2.jpeg",
-  "/public/assets/usados/3.jpeg",
-  "/public/assets/usados/4.jpeg",
-  "/public/assets/usados/5.jpeg",
-  "/public/assets/usados/6.jpeg",
+  "/assets/usados/1.jpeg",
+  "/assets/usados/2.jpeg",
+  "/assets/usados/3.jpeg",
+  "/assets/usados/4.jpeg",
+  "/assets/usados/5.jpeg",
+  "/assets/usados/6.jpeg",
 ];
 
 const Gallery: React.FC = () => {
