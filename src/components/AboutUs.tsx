@@ -10,12 +10,12 @@ const advisors: Advisor[] = [
   {
     name: 'Ezequiel Rovira',
     phone: '+54 9 351 123-4567',
-    photo: '/public/assets/asesor1.jpeg',
+    photo: '/assets/asesor1.jpeg',
   },
   {
     name: 'Valentín Fassi',
     phone: '+54 9 351 765-4321',
-    photo: '/public/assets/asesor2.jpeg',
+    photo: '/assets/asesor2.jpeg',
   },
 ]
 
