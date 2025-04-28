@@ -17,6 +17,16 @@ const advisors: Advisor[] = [
     phone: '+54 9 351 765-4321',
     photo: '/assets/asesor2.jpeg',
   },
+  {
+    name: 'Eric',
+    phone: '+54 9 351 765-4321',
+    photo: '/assets/asesor3.jpeg',
+  },
+  {
+    name: 'Gonzalo Rovira',
+    phone: '+54 9 351 765-4321',
+    photo: '/assets/asesor4.jpeg',
+  },
 ]
 
 const QuienesSomos: React.FC = () => (
