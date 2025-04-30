@@ -3,12 +3,19 @@ import React from 'react'
 interface Advisor {
   name: string
   phone: string
-  role:string
+  role: string
   photo: string
   sendWpp: string
 }
 
 const advisors: Advisor[] = [
+  {
+    name: 'Gonzalo Rovira',
+    phone: '353 4242200',
+    role: 'Asesor',
+    photo: '/assets/asesor4.jpeg',
+    sendWpp: 'https://api.whatsapp.com/send?phone=3534242200&text=Hola'
+  },
   {
     name: 'Ezequiel Rovira',
     phone: '353 4794721',
@@ -24,16 +31,9 @@ const advisors: Advisor[] = [
     sendWpp: 'https://api.whatsapp.com/send?phone=5493534788952&text=Hola'
   },
   {
-    name: 'Gonzalo Rovira',
-    phone: '353 4242200',
-    role: 'Asesor',
-    photo: '/assets/asesor4.jpeg',
-    sendWpp: 'https://api.whatsapp.com/send?phone=3534242200&text=Hola'
-  },
-  {
     name: 'Betiana Cittadini',
     phone: '353 4018476',
-    role:'Gestoria',
+    role: 'Gestoria',
     photo: '/assets/gestora1.jpg',
     sendWpp: 'https://api.whatsapp.com/send?phone=3534018476&text=Encuesta'
   },
