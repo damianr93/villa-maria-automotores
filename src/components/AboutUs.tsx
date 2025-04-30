@@ -34,7 +34,7 @@ const advisors: Advisor[] = [
     name: 'Betiana Cittadini',
     phone: '353 4018476',
     role:'Gestoria',
-    photo: '/public/assets/gestora1.jpg',
+    photo: '/assets/gestora1.jpg',
     sendWpp: 'https://api.whatsapp.com/send?phone=3534018476&text=Encuesta'
   },
 ]
