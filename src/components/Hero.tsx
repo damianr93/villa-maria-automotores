@@ -9,7 +9,7 @@ const Hero: React.FC = () => (
     relative h-screen
     bg-showroom-night 
     bg-[length:140%_140%]
-    bg-[position:50%_-90px]  
+    bg-[position:50%_-110px]  
     sm:bg-center              
     sm:bg-cover
     sm:bg-center
