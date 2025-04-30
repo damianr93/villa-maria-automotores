@@ -3,29 +3,39 @@ import React from 'react'
 interface Advisor {
   name: string
   phone: string
+  role:string
   photo: string
+  sendWpp: string
 }
 
 const advisors: Advisor[] = [
   {
     name: 'Ezequiel Rovira',
-    phone: '+54 9 351 123-4567',
+    phone: '353 4794721',
+    role: 'Asesor',
     photo: '/assets/asesor1.jpeg',
+    sendWpp: 'https://api.whatsapp.com/send?phone=5493534794721&text=Hola'
   },
   {
-    name: 'Valentín Fassi',
-    phone: '+54 9 351 765-4321',
-    photo: '/assets/asesor2.jpeg',
-  },
-  {
-    name: 'Eric',
-    phone: '+54 9 351 765-4321',
+    name: 'Eric Oldani',
+    phone: '353 4788952',
+    role: 'Asesor',
     photo: '/assets/asesor3.jpeg',
+    sendWpp: 'https://api.whatsapp.com/send?phone=5493534788952&text=Hola'
   },
   {
     name: 'Gonzalo Rovira',
-    phone: '+54 9 351 765-4321',
+    phone: '353 4242200',
+    role: 'Asesor',
     photo: '/assets/asesor4.jpeg',
+    sendWpp: 'https://api.whatsapp.com/send?phone=3534242200&text=Hola'
+  },
+  {
+    name: 'Betiana Cittadini',
+    phone: '353 4018476',
+    role:'Gestoria',
+    photo: '/public/assets/gestora1.jpg',
+    sendWpp: 'https://api.whatsapp.com/send?phone=3534018476&text=Encuesta'
   },
 ]
 
@@ -54,11 +64,15 @@ const QuienesSomos: React.FC = () => (
             alt={`Foto de ${a.name}`}
             className="w-32 h-32 rounded-full object-cover mb-6 border-4 border-neon-red"
           />
-          <h3 className="text-xl md:text-2xl font-semibold text-light mb-2">
+          <h3 className="text-xl md:text-2xl font-semibold text-light m-1">
             {a.name}
           </h3>
+          <h4 className="text-l md:text-l font-semibold text-light mb-2">
+            {a.role}
+          </h4>
           <a
-            href={`tel:${a.phone}`}
+            href={a.sendWpp}
+            target='_blank'
             className="text-lg text-neon-red/90 font-medium hover:underline"
           >
             {a.phone}
