@@ -3,10 +3,18 @@ import { motion } from 'framer-motion'
 import LogoLine from '../../public/assets/logo-line.png'
 
 const Hero: React.FC = () => (
-  <section
-    id="hero"
-    className="relative h-screen bg-showroom-night bg-cover bg-center"
-  >
+<section
+  id="hero"
+  className="
+    relative h-screen
+    bg-showroom-night 
+    bg-[length:140%_140%]
+    bg-[position:50%_-90px]  
+    sm:bg-center              
+    sm:bg-cover
+    sm:bg-center
+  "
+>
     {/* Overlay degradado opcional */}
     {/* <div className="absolute inset-0 bg-gradient-to-b from-dark/80 via-neon-purple/40 to-transparent z-0" /> */}
 
